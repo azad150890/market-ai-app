@@ -1,0 +1,13 @@
+{
+  "version": "2.0",
+  "extensions": {
+    "http": {
+      "cors": {
+        "allowedOrigins": [
+          "http://localhost:5173"
+        ],
+        "supportCredentials": false
+      }
+    }
+  }
+}
