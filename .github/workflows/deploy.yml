@@ -102,3 +102,4 @@ jobs:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_SWA_TOKEN }}
           app_location: "frontend"
           output_location: "dist"
+          deployment_action: "upload"
