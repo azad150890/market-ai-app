@@ -44,7 +44,7 @@ resource "azurerm_linux_function_app" "func" {
 resource "azurerm_static_web_app" "frontend" {
   name                = "market-ai-frontend"
   resource_group_name = azurerm_resource_group.rg.name
-  location            = "East US"
+  location            = "East US2"
 
   sku_tier = "Free"
   sku_size = "Free"
