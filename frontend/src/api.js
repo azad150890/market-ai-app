@@ -1,7 +1,9 @@
 import axios from "axios";
 
+const API_BASE_URL = process.env.REACT_APP_API_BASE_URL;
+
 export const getMarketData = (symbol) => {
   return axios.get(
-    `http://localhost:7071/api/get_market_data?symbol=${symbol}`
+    `${API_BASE_URL}/get_market_data?symbol=${symbol}`
   );
 };
